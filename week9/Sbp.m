@@ -1,0 +1,14 @@
+figure()
+t=0:0.01:1
+x=sin(0.2*pi*t)
+y=cos(0.2*pi*t)
+z=x+y
+v=x-y
+subplot(2,2,1)
+plot(t,x)
+subplot(2,2,2)
+plot(t,y)
+subplot(2,2,3)
+plot(t,z)
+subplot(2,2,4)
+plot(t,v)
